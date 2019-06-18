@@ -39,7 +39,7 @@ $(document).ready(function () {
         targets: 3,
         render: function (data, type, row, meta) {
           if (type === 'display') {
-            data = '<a href="index2.html?nbno=' + encodeURIComponent(data) + '">' + data + '</a>';
+            data = '<a href="index.html?nbno=' + encodeURIComponent(data) + '">' + data + '</a>';
           }
 
           return data;
