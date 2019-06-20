@@ -2,10 +2,10 @@
 
 $(document).ready(function () {
     table = $('#newTable').DataTable({
-      responsive: {
-        breakpoint:[
+//       responsive: {
+//         breakpoint:[
           
-        ]}
+// ]}
       data : null,
       colums : [
         { title: "ndbno"},
