@@ -1,30 +1,33 @@
 body {
   font-family: 'Ubuntu', sans-serif;
-  background-color: rgb(113, 214, 147);
+  /* background-color: rgb(113, 214, 147); */
+  background-image: url('img/food.jpg');
 }
-  
-/* #searchButton {
-  background-color: #d83232;
-  color: white;
-  border-radius: 3px;
-  border: none;
-} */
 
 h1 {
   text-align: center;
-  color: #000000;
-  border: solid black;
+  color: #ffffff;
+  border: solid rgb(255, 255, 255);
   width: 100%;
 }
 
 #about {
+  color: #ffffff;
+  position: inherit;
+  text-align: right;
   cursor: pointer;
-  float: right;
-  position: relative;
 }
 
 #about:hover {
   color: #d83232;
+}
+
+.aboutPara {
+  margin: auto;
+  border: solid #ffffff;
+  background-color: #3b3b3b;
+  color: #ffffff;
+  width: 75%;
 }
 
 .aboutLink {
@@ -32,8 +35,26 @@ h1 {
   text-decoration: none;
 }
 
+#returnHome {
+  text-decoration: none;
+  text-align: center;
+}
+
+#returnHome:hover {
+  color: #d83232;
+}
+
+.statement {
+  color: #ffffff;
+}
+
 form {
   text-align: center;
+  margin: 50px;
+}
+
+.statement {
+  margin-bottom: 10px;
 }
 
 .search {
@@ -45,7 +66,7 @@ form {
 
 #foodSearchInput {
   width: 100%;
-  border: 3px solid rgb(0, 0, 0);
+  border: 3px solid #ffffff;
   border-right: none;
   padding: 5px;
   height: 20px;
@@ -55,16 +76,16 @@ form {
 }
 
 #foodSearchInput:focus{
-  color: rgb(0, 0, 0);
+  color: #000000;
 }
 
 .searchButton {
   width: 40px;
   height: 36px;
-  border: 1px solid rgb(0, 0, 0);
-  background: rgb(0, 0, 0);
+  border: 1px solid #ffffff;
+  background: #ffffff;
   text-align: center;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   border-radius: 0 5px 5px 0;
   cursor: pointer;
   font-size: 20px;
@@ -73,4 +94,50 @@ form {
 .wrap {
   margin-bottom: 10px;
   width: 100%;
+}
+
+.indexToHome {
+  text-align: center;
+}
+
+#takeMeHome {
+  padding: 0;
+  border: none;
+  color: inherit;
+  font: inherit;
+  background-color: #ffffff;
+  border: solid #3b3b3b;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#takeMeHome:hover {
+  color: #d83232;
+}
+
+#newTable {
+  margin: auto;
+  border: 3px solid #ffffff;
+  background-color: #3b3b3b;
+}
+
+.theWholeTable {
+  color: #ffffff;
+  text-align: center;
+}
+
+th {
+  color: #ffffff;
+}
+
+label {
+  color: #ffffff;
+}
+
+#myTable_info.dataTables_info {
+  color: #ffffff;
+}
+
+#myTable_next.paginate_button.next.disabled {
+  color: #ffffff;
 }
