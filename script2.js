@@ -19,7 +19,7 @@ const nbno = urlParams.get('nbno');
 
 function getNutrientInfo() {
       const apiKey = 'RwF2lQB673HZPRaw9tmfa7arFAiPTb8e3Q1FSMh5';
-      const url = `http://api.nal.usda.gov/ndb/nutrients/?format=json&api_key=${apiKey}&nutrients=205&nutrients=204&nutrients=208&nutrients=269&nbno=${nbno}`;
+      const url = `https://api.nal.usda.gov/ndb/nutrients/?format=json&api_key=${apiKey}&nutrients=205&nutrients=204&nutrients=208&nutrients=269&nbno=${nbno}`;
       console.log(url);
       
       fetch(url)
