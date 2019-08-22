@@ -145,3 +145,7 @@ label {
 #newTable_wrapper {
   text-align: center;
 }
+
+.dataTables_wrapper {
+  background-color: #cac4c480;
+}
