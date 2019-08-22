@@ -158,3 +158,9 @@ div#newTable_paginate {
 .paginate_button.disabled {
   color: #000000;
 }
+
+.dataTables_wrapper .dataTables_filter {
+float: right;
+text-align: right;
+visibility: hidden;
+}
