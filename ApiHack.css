@@ -154,3 +154,7 @@ label {
 div#newTable_paginate {
       cursor: pointer;
 }
+
+.paginate_button.disabled {
+  color: #ffffff;
+}
