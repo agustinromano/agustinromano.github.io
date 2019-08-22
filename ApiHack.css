@@ -156,5 +156,5 @@ div#newTable_paginate {
 }
 
 .paginate_button.disabled {
-  color: #ffffff;
+  color: #000000;
 }
