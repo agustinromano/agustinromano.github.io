@@ -118,7 +118,7 @@ form {
 #newTable {
   margin: auto;
   border: 3px solid #3b3b3b;
-  background-color: #ffffff;
+  width: 100%;
 }
 
 .theWholeTable {
