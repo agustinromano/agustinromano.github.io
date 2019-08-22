@@ -149,3 +149,7 @@ label {
 .dataTables_wrapper {
   background-color: #cac4c480;
 }
+
+div#newTable_paginate {
+      cursor: pointer;
+}
