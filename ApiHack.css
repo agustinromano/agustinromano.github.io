@@ -126,13 +126,13 @@ form {
   text-align: center;
 }
 
-th {
+/* th {
   color: #ffffff;
-}
-
+} */
+/* 
 label {
   color: #ffffff;
-}
+} */
 
 #myTable_info.dataTables_info {
   color: #ffffff;
