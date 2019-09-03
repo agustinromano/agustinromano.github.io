@@ -1,11 +1,12 @@
 body {
   font-family: 'Ubuntu', sans-serif;
-  background-color: #00000;
-  background-image: url('img/food.jpg');
+  background-color: #000000;
+  background-image: url('img/kitchen2.jpg');
 }
 
 h1 {
   text-align: center;
+  background-color: #4242427e;
   color: #ffffff;
   border: solid rgb(255, 255, 255);
   width: 100%;
@@ -24,10 +25,11 @@ h1 {
 
 .aboutPara {
   margin: auto;
-  border: solid #ffffff;
-  background-color: #3b3b3b;
-  color: #ffffff;
-  width: 75%;
+  border: solid #3b3b3b;
+  background-color: #ffffff;
+  color: #000000;
+  max-width: 75%;
+  display: flex;
 }
 
 .aboutLink {
@@ -37,7 +39,7 @@ h1 {
 
 #returnHome {
   text-decoration: none;
-  text-align: center;
+  margin: auto;
 }
 
 #returnHome:hover {
@@ -118,12 +120,12 @@ form {
 #newTable {
   margin: auto;
   border: 3px solid #3b3b3b;
-  background-color: #ffffff
+  background-color: #ffffff;
   width: 100%;
 }
 
 .theWholeTable {
-  color: #ffffff;
+  /* color: #ffffff; */
   text-align: center;
 }
 
