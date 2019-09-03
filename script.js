@@ -20,6 +20,9 @@ function getFoodInfo() {
 function displayResults(test) {
   console.log(test);
   const dataInfo = test.list.item.map(item => {
+    if (displayResults = undefined){
+      alert("Sorry we couldn't find that :(")
+    }
     return Object.values(item);
   })
 
