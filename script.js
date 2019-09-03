@@ -18,11 +18,12 @@ function getFoodInfo() {
 }
 
 function displayResults(test) {
+  if (test.errors!=null && test.errors.error[0].status == 400) {
+    alert(test.errors.error[0].message);
+    return;
+  }
   console.log(test);
   const dataInfo = test.list.item.map(item => {
-    if (displayResults = undefined){
-      alert("Sorry we couldn't find that :(")
-    }
     return Object.values(item);
   })
 
